@@ -1,0 +1,248 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#StronaGlowna{
+    background-color: rgb(160, 194, 228);
+}
+#Kontakt{
+    background-color: rgb(122, 168, 101);
+}
+#Galeria{
+    background: linear-gradient(to bottom, rgb(255, 182, 182), rgb(195, 86, 111));
+}
+
+hr{
+    color: white;
+    border: dashed;
+    width: 700px;
+}
+
+#logoimg{
+    height: 50px;
+    width: 60px;
+    border-radius: 20px;
+    border: solid rgb(77, 115, 202);
+    float: left;
+}
+
+.navbarSG{
+    background-color: rgb(108, 148, 240);
+    padding: 10px;
+    border: solid rgb(77, 115, 202);
+    border-radius: 20px;
+    display: flex;
+    width: 700px;
+    margin: auto;
+}
+.navbarG{
+    background-color: rgb(202, 77, 77);
+    padding: 10px;
+    border: solid rgb(171, 14, 79);
+    border-radius: 20px;
+    display: flex;
+    width: 700px;
+    margin: auto;
+}
+.navbarK{
+    background-color: rgb(69, 129, 39);
+    padding: 10px;
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+    display: flex;
+    width: 700px;
+    margin: auto;
+}
+
+.lista1{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    color: white;
+}
+
+
+:link{
+    color: aliceblue;
+}
+:link:hover{
+    color: purple;
+    font-weight: bolder;
+}
+#Stg{
+    background-color: rgb(160, 194, 228);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    border: solid rgb(108, 148, 240);
+    border-radius: 20px;
+    margin-right: 5px;
+}
+#kon{
+    background-color: rgb(122, 168, 101);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    border: solid rgb(69, 129, 39);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#ga{
+    background-color: rgb(235, 151, 151);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    border: solid rgb(202, 77, 77);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header,h1,h3{
+    color: white;
+    margin-left: 5%;
+}
+
+#sect1sg,#sect2sg,#sect3sg{
+    background-color: rgb(108, 148, 240);
+    border: solid rgb(77, 115, 202);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+#imgSG1,#imgSG2,#imgSG3{
+    width: 700px;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+}
+#imgSG3{
+    background-color: aliceblue;
+    width: 700px;
+}
+#sect1g{
+    background-color: rgb(202, 77, 77);
+    border: solid rgb(171, 14, 79);
+    border-radius: 20px;
+    padding: 35px;
+    margin: auto;
+    width: 635px;
+}
+#zdjecia{
+    width: 200px;
+    height: 200px;
+    margin: 2.5px;
+    border: solid rgb(171, 14, 79);
+    border-radius: 20px;
+}
+#zdjecia:hover{
+    width: 210px;
+    height: 210px;
+    border: solid white;
+    transition: 0.5s;
+}
+
+#sect1k{
+    background-color: rgb(69, 129, 39);
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+    padding: 21px;
+    margin: 10px;
+}
+#sect2k{
+    background-color: rgb(69, 129, 39);
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+    padding: 21px;
+    margin: 10px;
+}
+#sect3k{
+    background-color: rgb(69, 129, 39);
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+    height: 200px;
+    padding: 21px;
+    margin: 10px;
+}
+#mapa{
+    height: 100px;
+    width: 400px;
+    background-color: lightgreen;
+    padding-top: 80px;
+    text-align: center;
+    float: left;
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+    margin: 8px;
+}
+#mapalink{
+    color: rgb(38, 86, 14);
+}
+#mapalink:hover{
+    color: white;
+    font-size: large;
+    transition: 0.5s;
+}
+
+#zdjecia2{
+    height: 200px;
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+    margin: auto;
+}
+#zdjecia2:hover{
+    height: 210px;
+    border: solid white;
+    transition: 0.5s;
+}
+
+#footerSG{
+    color: rgb(100, 100, 100);
+    text-align: center;
+    background-color: rgb(108, 148, 240);
+    padding: 5px;
+    border: solid rgb(77, 115, 202);
+    border-radius: 20px;
+}
+#footerSGp{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(160, 194, 228);
+    border: solid rgb(77, 115, 202);
+    border-radius: 20px;
+}
+#footerG{
+    color: rgb(100, 100, 100);
+    text-align: center;
+    background-color: rgb(202, 77, 77);
+    padding: 5px;
+    border: solid rgb(171, 14, 79);
+    border-radius: 20px;
+}
+#footerGp{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(235, 151, 151);
+    border: solid rgb(171, 14, 79);
+    border-radius: 20px;
+}
+#footerK{
+    color: rgb(100, 100, 100);
+    text-align: center;
+    background-color: rgb(69, 129, 39);
+    padding: 5px;
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+}
+#footerKp{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(122, 168, 101);
+    border: solid rgb(38, 86, 14);
+    border-radius: 20px;
+}
